@@ -1,1 +1,0 @@
-Theme Previwer: https://preview.themeforest.net/item/wellfood-fast-food-restaurant-html-template/full_screen_preview/53231206?_ga=2.84757465.196635185.1724119059-1229595092.1717948572
