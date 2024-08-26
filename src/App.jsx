@@ -2,10 +2,11 @@ import React,{ useState, useEffect } from 'react'
 import { BrowserRouter as Router } from 'react-router-dom';
 import './App.css'
 import AppRoutes from './routes/AppRoutes'
-import Preloader from './components/Preloader'
+import Preloader from './utils/Preloader'
 
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   const [loading, setLoading] = useState(true);
@@ -20,7 +21,7 @@ function App() {
 
   return (
     <div className="App">
-      <main className="main" id="top">
+      <main className="main page-wrapper" id="top">
         {loading ? <Preloader /> : (
           <Router>
             <AppRoutes />

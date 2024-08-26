@@ -1,0 +1,39 @@
+:root{
+    background-color: black !important;
+}
+body {
+    background-color: black !important;
+}
+
+/* Clients Section */
+.client-area {
+    background-color: #f8f9fa;
+    position: relative;
+    z-index: 1;
+  }
+  
+  .client-wrap-two {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+  
+  .client-active {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-around;
+  }
+  
+  .client-item img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+/* Blog Css */
+a {
+ color: black !important;
+ text-decoration: none !important;
+}  
+.textre{
+    padding-left: 0rem !important;  
+}

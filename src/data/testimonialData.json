@@ -1,0 +1,53 @@
+{
+  "sectionTitle": {
+    "subTitle": "Customer Feedback",
+    "title": "We’ve Lots of Happy Customers. Explore Our Feedback"
+  },
+  "authors": [
+    {
+      "image": "assets/images/testimonials/testi-author-five1.jpg",
+      "alt": "Author 1"
+    },
+    {
+      "image": "assets/images/testimonials/testi-author-five2.jpg",
+      "alt": "Author 2"
+    },
+    {
+      "image": "assets/images/testimonials/testi-author-five3.jpg",
+      "alt": "Author 3"
+    },
+    {
+      "image": "assets/images/testimonials/testi-author-five2.jpg",
+      "alt": "Author 4"
+    }
+  ],
+  "testimonials": [
+    {
+      "text": "Renowned for its versatility in the kitchen. Red can be prepared in various ways from simple steaming to elaborate preparations.",
+      "author": "Salvador I. Burton",
+      "designation": "Manager"
+    },
+    {
+      "text": "From simple steaming to elaborate preparations, renowned for its versatility in the kitchen. Red can be prepared in various ways.",
+      "author": "Salvador I. Burton",
+      "designation": "Manager"
+    },
+    {
+      "text": "Renowned for its steaming, boiling, and elaborate preparations. Versatile in the kitchen, Red can be prepared in various ways.",
+      "author": "Salvador I. Burton",
+      "designation": "Manager"
+    },
+    {
+      "text": "Elaborate preparations, renowned for its versatility in the kitchen. Red can be prepared in various ways, from simple steaming to boiling.",
+      "author": "Salvador I. Burton",
+      "designation": "Manager"
+    }
+  ],
+  "shapes": {
+    "leftShape": "assets/images/testimonials/testi-five-left.png",
+    "rightShape": "assets/images/testimonials/testi-five-right.png",
+    "shape1": "assets/images/testimonials/testi-five-shape3.png",
+    "shape2": "assets/images/testimonials/testi-five-shape1.png",
+    "shape3": "assets/images/testimonials/testi-five-shape2.png"
+  }
+}
