@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import ScrollToTopButton from '../utils/scrollToTop';
 
 const Footer = () => {
   useEffect(() => {
@@ -40,10 +41,10 @@ const Footer = () => {
                 </div>
                 <ul>
                   <li>
-                    <a href="mailto:wellfood@gmail.com"><u>wellfood@gmail.com</u></a>
+                    <a href="mailto:wellfood@gmail.com"><p>wellfood@gmail.com</p></a>
                   </li>
                   <li>
-                    <a href="callto:+(1)0987654321">+(1) 098 765 4321</a>
+                    <a href="callto:+(1)0987654321"><p>+(1) 098 765 4321</p></a>
                   </li>
                 </ul>
               </div>
@@ -103,30 +104,28 @@ const Footer = () => {
         <div className="container rel text-center">
           <ul className="footer-bottom-nav">
             <li>
-              <a href="product-details.html">Hamburger</a>
+              <a href="product-details.html"><p className="minfmenu">Hamburger</p></a>
             </li>
             <li>
-              <a href="#">Pizza</a>
+              <a href="#"><p className="minfmenu">Pizza</p></a>
             </li>
             <li>
-              <a href="product-details.html">Vegetable roll</a>
+              <a href="product-details.html"><p className="minfmenu">Vegetable roll</p></a>
             </li>
             <li>
-              <a href="product-details.html">Sea fish</a>
+              <a href="product-details.html"><p className="minfmenu">Sea fish </p> </a>
             </li>
             <li>
-              <a href="product-details.html">Fried chicken</a>
+              <a href="product-details.html"><p className="minfmenu">Fried chicken </p> </a>
             </li>
             <li>
-              <a href="#">Burger</a>
+              <a href="#"> <p className="minfmenu">Burger</p></a>
             </li>
             <li>
-              <a href="#">Salad</a>
+              <a href="#"> <p className="minfmenu">Salad</p></a>
             </li>
           </ul>
-          <button className="scroll-top scroll-to-target" data-target="html">
-            <i className="fas fa-arrow-alt-up"></i>
-          </button>
+          <ScrollToTopButton />
         </div>
         <hr className="mt-25 mb-30" />
         <div className="container">

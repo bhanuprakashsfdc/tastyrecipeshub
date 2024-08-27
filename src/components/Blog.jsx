@@ -1,6 +1,6 @@
 import React from 'react';
 import BlogItem from './BlogItem';
-import blogData from '../data/blogData.json';
+import blogData from '../data/homeblogData.json';
 
 const Blog = () => {
   return (

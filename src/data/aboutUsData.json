@@ -1,0 +1,35 @@
+{
+    "image": "assets/images/about/about-five.jpg",
+    "sectionTitle": {
+      "subTitle": "learn About wellfood",
+      "title": "Amazing & Quality Food For Your Good Health"
+    },
+    "description": "Welcome to our restaurant, where culinary excellence meets warm hospitality in every dish we serve. Nestled in the heart of City Name, our eatery invites you on a journey.",
+    "buttons": [
+      {
+        "text": "learn more us",
+        "link": "about.html",
+        "style": "theme-btn style-two"
+      },
+      {
+        "text": "Explore popular menu",
+        "link": "about.html",
+        "style": "read-more"
+      }
+    ],
+    "services": [
+      {
+        "icon": "flaticon-high-quality",
+        "title": "Best Quality Food",
+        "description": "Our talented chefs craft each dish with precision sourcing",
+        "link": "menu-burger.html"
+      },
+      {
+        "icon": "flaticon-chef",
+        "title": "Experience our Chefs",
+        "description": "Our talented chefs craft each dish with precision sourcing",
+        "link": "menu-burger.html"
+      }
+    ]
+  }
+  

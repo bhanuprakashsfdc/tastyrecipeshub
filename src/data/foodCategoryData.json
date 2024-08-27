@@ -1,0 +1,79 @@
+{
+    "sectionTitle": {
+      "subTitle": "popular food category",
+      "title": "Explore Our Most Popular Juice & Healthy Drinks"
+    },
+    "categories": [
+      {
+        "icon": "assets/images/shapes/fc-icon1.png",
+        "title": "Organic Juice",
+        "items": "15 Items",
+        "link": "menu-burger.html",
+        "delay": "0"
+      },
+      {
+        "icon": "assets/images/shapes/fc-icon2.png",
+        "title": "Honey Coffee",
+        "items": "15 Items",
+        "link": "menu-burger.html",
+        "delay": "50"
+      },
+      {
+        "icon": "assets/images/shapes/fc-icon3.png",
+        "title": "Milk Shake",
+        "items": "15 Items",
+        "link": "menu-burger.html",
+        "delay": "100"
+      },
+      {
+        "icon": "assets/images/shapes/fc-icon4.png",
+        "title": "Cold Ice-cream",
+        "items": "15 Items",
+        "link": "menu-burger.html",
+        "delay": "150"
+      },
+      {
+        "icon": "assets/images/shapes/fc-icon5.png",
+        "title": "Strawberry-juice",
+        "items": "15 Items",
+        "link": "menu-burger.html",
+        "delay": "200"
+      },
+      {
+        "icon": "assets/images/shapes/fc-icon1.png",
+        "title": "Organic Juice",
+        "items": "15 Items",
+        "link": "menu-burger.html",
+        "delay": "0"
+      },
+      {
+        "icon": "assets/images/shapes/fc-icon2.png",
+        "title": "Honey Coffee",
+        "items": "15 Items",
+        "link": "menu-burger.html",
+        "delay": "0"
+      },
+      {
+        "icon": "assets/images/shapes/fc-icon3.png",
+        "title": "Milk Shake",
+        "items": "15 Items",
+        "link": "menu-burger.html",
+        "delay": "0"
+      },
+      {
+        "icon": "assets/images/shapes/fc-icon4.png",
+        "title": "Cold Ice-cream",
+        "items": "15 Items",
+        "link": "menu-burger.html",
+        "delay": "0"
+      },
+      {
+        "icon": "assets/images/shapes/fc-icon5.png",
+        "title": "Strawberry-juice",
+        "items": "15 Items",
+        "link": "menu-burger.html",
+        "delay": "0"
+      }
+    ]
+  }
+  

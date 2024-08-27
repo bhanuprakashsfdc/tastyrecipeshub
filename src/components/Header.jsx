@@ -69,7 +69,7 @@ const Header = () => {
                 <div className="navbar-collapse collapse clearfix">
                   <ul className="navigation clearfix">
                     <li className="dropdown">
-                      <a href="#">Home</a>
+                      <a className="header-menu" href="/">Home</a>
                       <ul className="dropdown-menu">
                         <li><a href="index.html">Home Restaurant</a></li>
                         <li><a href="index2.html">Home Pizza</a></li>
@@ -80,7 +80,7 @@ const Header = () => {
                       </ul>
                     </li>
                     <li className="dropdown">
-                      <a href="#">Menu</a>
+                      <a className="header-menu" href="/">Menu</a>
                       <ul className="dropdown-menu">
                         <li><a href="menu-restaurant.html">Menu Restaurant</a></li>
                         <li><a href="menu-pizza.html">Menu Pizza</a></li>
@@ -91,7 +91,7 @@ const Header = () => {
                       </ul>
                     </li>
                     <li className="dropdown">
-                      <a href="#">Pages</a>
+                      <a className="header-menu" href="#">Pages</a>
                       <ul className="dropdown-menu">
                         <li><a href="about.html">About Us</a></li>
                         <li><a href="history.html">Our History</a></li>
@@ -107,14 +107,14 @@ const Header = () => {
                       </ul>
                     </li>
                     <li className="dropdown">
-                      <a href="#">Blog</a>
+                      <a className="header-menu" href="/blogs.html">Blogs</a>
                       <ul className="dropdown-menu">
                         <li><a href="blog.html">Blog Standard</a></li>
                         <li><a href="blog-details.html">Blog Details</a></li>
                       </ul>
                     </li>
                     <li className="dropdown">
-                      <a href="#">Shop</a>
+                      <a className="header-menu" href="/shop.html">Shop</a>
                       <ul className="dropdown-menu">
                         <li><a href="shop.html">Products</a></li>
                         <li><a href="product-details.html">Product Details</a></li>
@@ -122,14 +122,16 @@ const Header = () => {
                         <li><a href="checkout.html">Checkout Page</a></li>
                       </ul>
                     </li>
-                    <li><a href="contact.html">Contact</a></li>
+                    <li><a className="header-menu" href="product.html">Product</a></li>
+                    <li><a className="header-menu" href="about-us.html">About us</a></li>
+                    <li><a className="header-menu" href="contact.html">Contact</a></li>
                   </ul>
                 </div>
               </nav>
             </div>
 
             <div className="header-number">
-              <i className="far fa-phone"></i>Call : <a href="callto:+88012345688">+880 123 456 88</a>
+              <i className="far fa-phone"></i>Call : <a className="header-menu" href="callto:+88012345688">+880 123 456 88</a>
             </div>
 
             <div className="nav-search py-10">

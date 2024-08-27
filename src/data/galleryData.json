@@ -1,0 +1,33 @@
+[
+    {
+      "image": "assets/images/gallery/gallery-four2.jpg",
+      "alt": "Gallery Image 1",
+      "delay": "0"
+    },
+    {
+      "image": "assets/images/gallery/gallery-four1.jpg",
+      "alt": "Gallery Image 2",
+      "delay": "50"
+    },
+    {
+      "image": "assets/images/gallery/gallery-four3.jpg",
+      "alt": "Gallery Image 3",
+      "delay": "100"
+    },
+    {
+      "image": "assets/images/gallery/gallery-four4.jpg",
+      "alt": "Gallery Image 4",
+      "delay": "150"
+    },
+    {
+      "image": "assets/images/gallery/gallery-four5.jpg",
+      "alt": "Gallery Image 5",
+      "delay": "200"
+    },
+    {
+      "image": "assets/images/gallery/gallery-four6.jpg",
+      "alt": "Gallery Image 6",
+      "delay": "250"
+    }
+  ]
+  

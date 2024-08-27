@@ -1,0 +1,57 @@
+{
+    "blog": {
+      "title": "Culinary Chronicle Exploring Gastronomic Wonders at food king Restaurant",
+      "category": "Quality Food",
+      "date": "March 25, 2024",
+      "commentsCount": 5,
+      "content": "Nestled in the heart of [City Name], our restaurant offers a captivating dining experience...",
+      "image": "assets/images/blog/blog-standard1.jpg",
+      "middleImages": ["assets/images/blog/blog-middle1.jpg", "assets/images/blog/blog-middle2.jpg"]
+    },
+    "author": {
+      "name": "Thomas B. Gibson",
+      "role": "Author",
+      "description": "Dictum tellus massa congue sapien mollis suspende preti alesuada enim vitae dignissim...",
+      "image": "assets/images/blog/admin-comment.jpg",
+      "socialLinks": {
+        "facebook": "#",
+        "twitter": "#",
+        "linkedin": "#",
+        "instagram": "#"
+      }
+    },
+    "previousPost": {
+      "title": "Savor & Share Culinary Chronicles Gazette Tales from the Table",
+      "date": "April 25, 2024",
+      "image": "assets/images/blog/prev-post.jpg",
+      "link": "blog-details.html"
+    },
+    "nextPost": {
+      "title": "Savor & Share Culinary Chronicles Gazette Tales from the Table",
+      "date": "April 25, 2024",
+      "image": "assets/images/blog/next-post.jpg",
+      "link": "blog-details.html"
+    },
+    "comments": [
+      {
+        "name": "Daniel A. Hayes",
+        "date": "15 Jan 2024",
+        "image": "assets/images/products/product-comment1.jpg",
+        "comment": "SaaS, or Software as a Service, is a cloud-based software delivery model..."
+      },
+      {
+        "name": "Daniel A. Hayes",
+        "date": "15 Jan 2024",
+        "image": "assets/images/blog/blog-comment2.jpg",
+        "comment": "SaaS, or Software as a Service, is a cloud-based software delivery mode..."
+      },
+      {
+        "name": "Daniel A. Hayes",
+        "date": "15 Jan 2024",
+        "image": "assets/images/blog/blog-comment3.jpg",
+        "comment": "SaaS, or Software as a Service, is a cloud-based software delivery model..."
+      }
+    ],
+    "tags": ["Restaurant", "Food", "Stalls"]
+  }
+  
