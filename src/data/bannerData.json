@@ -1,0 +1,44 @@
+{
+    "shopBanner": {
+      "backgroundImage": "assets/images/background/banner.jpg",
+      "title": "Shop With Sidebar",
+      "breadcrumb": [
+        { "name": "Home", "link": "index.html" },
+        { "name": "Shop With Sidebar", "link": "#" }
+      ]
+    },
+    "singleProductBanner": {
+      "backgroundImage": "assets/images/background/banner.jpg",
+      "title": "Product Details",
+      "breadcrumb": [
+        { "name": "Home", "link": "index.html" },
+        { "name": "Shop", "link": "shop.html" },
+        { "name": "Product Details", "link": "#" }
+      ]
+    },
+    "aboutUsBanner": {
+      "backgroundImage": "assets/images/background/banner.jpg",
+      "title": "About Us",
+      "breadcrumb": [
+        { "name": "Home", "link": "index.html" },
+        { "name": "About Us", "link": "#" }
+      ]
+    },
+    "blogbanner":{
+        "backgroundImage": "assets/images/background/banner.jpg",
+        "title": "Blog Standard",
+        "breadcrumb": [
+          { "name": "Home", "link": "index.html" },
+          { "name": "Blog Standard", "link": "#" }
+        ]
+      },
+    "blogdetailbanner":{
+        "backgroundImage": "assets/images/background/banner.jpg",
+        "title": "Blog Standard",
+        "breadcrumb": [
+          { "name": "Home", "link": "index.html" },
+          { "name": "Blog Standard", "link": "#" }
+        ]
+    }
+  }
+  

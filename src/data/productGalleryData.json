@@ -1,0 +1,99 @@
+{
+    "section": {
+      "title": "product gallery",
+      "heading": "explore latest product gallery"
+    },
+    "categories": [
+      { "name": "Show All", "filter": "*" },
+      { "name": "Orange Juice", "filter": ".juice" },
+      { "name": "Milk Shakes", "filter": ".shakes" },
+      { "name": "Coffee", "filter": ".coffee" },
+      { "name": "Ice-cream", "filter": ".ice-cream" }
+    ],
+    "products": [
+      {
+        "title": "fresh chicken burger",
+        "category": "shakes ice-cream",
+        "image": "assets/images/food/filter-food1.jpg",
+        "badge": "-10%",
+        "rating": 5,
+        "reviews": "5k",
+        "price": "$25",
+        "oldPrice": "$50",
+        "link": "product-details.html"
+      },
+      {
+        "title": "fresh chicken burger",
+        "category": "juice coffee",
+        "image": "assets/images/food/filter-food2.jpg",
+        "rating": 5,
+        "reviews": "5k",
+        "price": "$25",
+        "oldPrice": "$50",
+        "link": "product-details.html"
+      },
+      {
+        "title": "fresh chicken burger",
+        "category": "shakes coffee ice-cream",
+        "image": "assets/images/food/filter-food3.jpg",
+        "badge": "hot",
+        "rating": 5,
+        "reviews": "5k",
+        "price": "$25",
+        "oldPrice": "$50",
+        "link": "product-details.html"
+      },
+      {
+        "title": "fresh chicken burger",
+        "category": "juice ice-cream",
+        "image": "assets/images/food/filter-food4.jpg",
+        "rating": 5,
+        "reviews": "5k",
+        "price": "$25",
+        "oldPrice": "$50",
+        "link": "product-details.html"
+      },
+      {
+        "title": "fresh chicken burger",
+        "category": "shakes",
+        "image": "assets/images/food/filter-food5.jpg",
+        "rating": 5,
+        "reviews": "5k",
+        "price": "$25",
+        "oldPrice": "$50",
+        "link": "product-details.html"
+      },
+      {
+        "title": "fresh chicken burger",
+        "category": "juice coffee",
+        "image": "assets/images/food/filter-food6.jpg",
+        "badge": "-10%",
+        "rating": 5,
+        "reviews": "5k",
+        "price": "$25",
+        "oldPrice": "$50",
+        "link": "product-details.html"
+      },
+      {
+        "title": "fresh chicken burger",
+        "category": "ice-cream juice",
+        "image": "assets/images/food/filter-food7.jpg",
+        "rating": 5,
+        "reviews": "5k",
+        "price": "$25",
+        "oldPrice": "$50",
+        "link": "product-details.html"
+      },
+      {
+        "title": "fresh chicken burger",
+        "category": "coffee shakes",
+        "image": "assets/images/food/filter-food8.jpg",
+        "rating": 5,
+        "reviews": "5k",
+        "price": "$25",
+        "oldPrice": "$50",
+        "link": "product-details.html"
+      }
+    ]
+  }
+  

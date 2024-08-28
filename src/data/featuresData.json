@@ -1,0 +1,25 @@
+{
+    "image": "assets/images/features/features-five.jpg",
+    "qualityFood": {
+      "backgroundImage": "assets/images/shapes/about-star.png",
+      "text": "quality food"
+    },
+    "features": [
+      {
+        "icon": "flaticon-broccoli",
+        "title": "100% Organic Food",
+        "description": "Welcome to our restaurant, where culinary excellence meets warm hospitality in every dish we serve."
+      },
+      {
+        "icon": "flaticon-broccoli",
+        "title": "Natural & Fresh Food",
+        "description": "Welcome to our restaurant, where culinary excellence meets warm hospitality in every dish we serve."
+      },
+      {
+        "icon": "flaticon-broccoli",
+        "title": "Natural Sugar",
+        "description": "Welcome to our restaurant, where culinary excellence meets warm hospitality in every dish we serve."
+      }
+    ]
+  }
+  

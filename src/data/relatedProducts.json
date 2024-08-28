@@ -1,0 +1,35 @@
+[
+    {
+      "image": "assets/images/dishes/dish1.png",
+      "title": "Fresh Chicken Burger",
+      "price": { "original": "$50", "discounted": "$25" },
+      "rating": 5,
+      "reviews": "5k",
+      "link": "product-details.html"
+    },
+    {
+      "image": "assets/images/dishes/dish2.png",
+      "title": "Pizza with Mushrooms",
+      "price": { "original": "$50", "discounted": "$25" },
+      "rating": 5,
+      "reviews": "5k",
+      "link": "product-details.html"
+    },
+    {
+      "image": "assets/images/dishes/dish3.png",
+      "title": "Double Burger & Fries",
+      "price": { "original": "$50", "discounted": "$25" },
+      "rating": 5,
+      "reviews": "5k",
+      "link": "product-details.html"
+    },
+    {
+      "image": "assets/images/dishes/dish4.png",
+      "title": "Fried Chicken French",
+      "price": { "original": "$50", "discounted": "$25" },
+      "rating": 5,
+      "reviews": "5k",
+      "link": "product-details.html"
+    }
+  ]
+  

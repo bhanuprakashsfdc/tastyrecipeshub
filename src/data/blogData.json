@@ -1,0 +1,65 @@
+{
+  "posts": [
+    {
+      "image": "assets/images/blog/blog-standard1.jpg",
+      "category": "Quality Food",
+      "date": "March 25, 2024",
+      "comments": "comments (5)",
+      "title": "Culinary Chronicle Exploring Gastronomic Wonders at food king Restaurant",
+      "description": "Restaurant where culinary excellence meet hospitality Sure! Here are some frequently asked questions (FAQs) that a restaurant might include on its website or in its informational materials",
+      "link": "blog-details.html"
+    },
+    {
+      "image": "assets/images/blog/blog-standard2.jpg",
+      "category": "Quality Food",
+      "date": "March 25, 2024",
+      "comments": "comments (5)",
+      "title": "Culinary Chronicle Exploring Gastronomic Wonders at food king Restaurant",
+      "description": "Restaurant where culinary excellence meet hospitality Sure! Here are some frequently asked questions (FAQs) that a restaurant might include on its website or in its informational materials",
+      "link": "blog-details.html"
+    },
+    {
+      "image": "assets/images/blog/blog-standard3.jpg",
+      "category": "Quality Food",
+      "date": "March 25, 2024",
+      "comments": "comments (5)",
+      "title": "Culinary Chronicle Exploring Gastronomic Wonders at food king Restaurant",
+      "description": "Restaurant where culinary excellence meet hospitality Sure! Here are some frequently asked questions (FAQs) that a restaurant might include on its website or in its informational materials",
+      "link": "blog-details.html"
+    }
+  ],
+  "recentNews": [
+    {
+      "image": "assets/images/widgets/news1.jpg",
+      "date": "April 25, 2024",
+      "title": "Savor & Share Culinary Chronicles Gastronomic Gazette Tales from the Table",
+      "link": "blog-details.html"
+    },
+    {
+      "image": "assets/images/widgets/news2.jpg",
+      "date": "April 25, 2024",
+      "title": "Savor & Share Culinary Chronicles Gastronomic Gazette Tales from the Table",
+      "link": "blog-details.html"
+    },
+    {
+      "image": "assets/images/widgets/news3.jpg",
+      "date": "April 25, 2024",
+      "title": "Savor & Share Culinary Chronicles Gastronomic Gazette Tales from the Table",
+      "link": "blog-details.html"
+    },
+    {
+      "image": "assets/images/widgets/news4.jpg",
+      "date": "April 25, 2024",
+      "title": "Savor & Share Culinary Chronicles Gastronomic Gazette Tales from the Table",
+      "link": "blog-details.html"
+    }
+  ],
+  "categories": [
+    { "name": "Beef & Chicken Hamburger", "count": 8, "link": "blog.html" },
+    { "name": "Italian Pizza", "count": 3, "link": "blog.html" },
+    { "name": "Sandwich", "count": 5, "link": "blog.html" },
+    { "name": "Chicken Roll", "count": 2, "link": "blog.html" },
+    { "name": "Soup", "count": 5, "link": "blog.html" }
+  ],
+  "tags": ["Spicy", "Seafoods", "Burger", "Pizza", "Soup", "Crap", "Juice", "Bread"]
+}

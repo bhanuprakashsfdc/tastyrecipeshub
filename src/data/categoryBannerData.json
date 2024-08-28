@@ -1,0 +1,30 @@
+[
+    {
+      "title": "Strawberry Juice & slices",
+      "subtitle": "Quality Food",
+      "backgroundImage": "assets/images/banner/category-banner-five1.jpg",
+      "link": "shop.html",
+      "gradientClass": "gradient-two",
+      "styleClass": "style-three",
+      "delay": "0"
+    },
+    {
+      "title": "buy 1",
+      "subtitle": "get free 1",
+      "backgroundImage": "assets/images/banner/category-banner-five2.jpg",
+      "link": "shop.html",
+      "gradientClass": "",
+      "styleClass": "style-four",
+      "delay": "50"
+    },
+    {
+      "title": "Fresh Orange Juice & slices",
+      "subtitle": "Quality Food",
+      "backgroundImage": "assets/images/banner/category-banner-five3.jpg",
+      "link": "shop.html",
+      "gradientClass": "gradient-three",
+      "styleClass": "style-three",
+      "delay": "100"
+    }
+  ]
+  

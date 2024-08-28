@@ -1,0 +1,16 @@
+{
+    "backgroundImage": "assets/images/background/hero-five.jpg",
+    "subTitle": "special for your best choice",
+    "title": "Organic Juice & Health Drinks",
+    "description": "Welcome to our culinary sanctuary, where every dish tells a story and every bite is an adventure at our food website.",
+    "buttonText": "Book now",
+    "buttonLink": "shop.html",
+    "shapes": {
+      "shape1": "assets/images/shapes/hero-shape1.png",
+      "shape2": "assets/images/shapes/hero-shape2.png",
+      "shape5": "assets/images/shapes/hero-shape5.png",
+      "heroLeft": "assets/images/shapes/hero-five-left.png",
+      "heroRight": "assets/images/shapes/hero-five-right.png"
+    }
+  }
+  

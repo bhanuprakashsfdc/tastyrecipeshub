@@ -1,0 +1,40 @@
+{
+    "section": {
+      "title": "Popular Menu",
+      "heading": "We Provide Exclusive Food Explore Popular Food",
+      "image": "assets/images/food/food-menu.jpg"
+    },
+    "menuItems": [
+      {
+        "title": "Orange Juice",
+        "price": "$33",
+        "description": "Diverse menu features array of delectable",
+        "image": "assets/images/food/fm-five1.jpg"
+      },
+      {
+        "title": "Mango Juice",
+        "price": "$28",
+        "description": "Diverse menu features array of delectable",
+        "image": "assets/images/food/fm-five2.jpg"
+      },
+      {
+        "title": "Strawberry Juice",
+        "price": "$25",
+        "description": "Diverse menu features array of delectable",
+        "image": "assets/images/food/fm-five3.jpg"
+      },
+      {
+        "title": "Pineapple Juice",
+        "price": "$40",
+        "description": "Diverse menu features array of delectable",
+        "image": "assets/images/food/fm-five4.jpg"
+      },
+      {
+        "title": "Delicious Ice-cream",
+        "price": "$23",
+        "description": "Diverse menu features array of delectable",
+        "image": "assets/images/food/fm-five5.jpg"
+      }
+    ]
+  }
+  
