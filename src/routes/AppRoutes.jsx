@@ -2,6 +2,7 @@ import React from 'react';
 import { Routes, Route } from 'react-router-dom';
 import Layout from '../layouts/Layout';
 import Home from '../pages/Home';
+import HomeBackup from '../pages/HomeBackup';
 import Error from '../pages/Error';
 import Shop from '../pages/Shop';
 import Product from '../pages/Product';
@@ -15,6 +16,7 @@ const AppRoutes = () => {
       <Routes>
         <Route path="/" element={<Layout />}>
             <Route index element={<Home />} />
+            <Route path="/index1.html" element={<HomeBackup /> } />
             <Route path="/index.html" element={<Home />} />
             <Route path="/shop.html" element={<Shop />} />
             <Route path="/product.html" element={<Product />} />

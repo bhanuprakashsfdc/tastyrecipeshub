@@ -8,6 +8,15 @@ body {
 .minfmenu{
  color: #FFFF;
 }
+.responsive-list{
+  display: flex;
+}
+.responsive-list li a{
+  color: #FFFF !important;
+}
+.foli{
+  color: #FFFF !important;
+}
 /* Clients Section */
 .client-area {
     background-color: #f8f9fa;

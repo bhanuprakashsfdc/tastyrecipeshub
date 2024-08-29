@@ -1,0 +1,28 @@
+{
+    "location": {
+      "title": "Location",
+      "address": "1403 Washington Ave, New Orleans, LA 70130, United States"
+    },
+    "contact": {
+      "title": "Contact Us",
+      "email": "wellfood@gmail.com",
+      "phone": "+(1) 098 765 4321"
+    },
+    "openingHours": {
+      "title": "Opening Hours",
+      "hours": [
+        { "day": "Monday – Friday", "time": "8am – 4pm" },
+        { "day": "Saturday", "time": "8am – 12am" }
+      ]
+    },
+    "socialMedia": {
+      "title": "Follow Us",
+      "links": [
+        { "platform": "facebook", "url": "https://www.facebook.com" },
+        { "platform": "twitter", "url": "https://www.twitter.com" },
+        { "platform": "linkedin", "url": "https://www.linkedin.com" },
+        { "platform": "instagram", "url": "https://www.instagram.com" }
+      ]
+    }
+  }
+  

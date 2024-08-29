@@ -1,4 +1,12 @@
 {
+  "homeBanner": {
+    "backgroundImage": "assets/images/background/banner.jpg",
+    "title": "Shop With Sidebar",
+    "breadcrumb": [
+      { "name": "Home", "link": "index.html" },
+      { "name": "Shop With Sidebar", "link": "#" }
+    ]
+  },
     "shopBanner": {
       "backgroundImage": "assets/images/background/banner.jpg",
       "title": "Shop With Sidebar",

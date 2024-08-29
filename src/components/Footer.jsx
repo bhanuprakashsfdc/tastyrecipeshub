@@ -2,8 +2,24 @@ import React, { useEffect } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import ScrollToTopButton from '../utils/scrollToTop';
+import MiniFooter from './MiniFooter';
+import FooterNav from './FooterNav';
+import FooterWidget from './FooterWidget';
+import footerData from '../data/footerData.json';
 
 const Footer = () => {
+  const { location, contact, openingHours, socialMedia } = footerData;
+
+  const menuItems = [
+    { text: 'Hamburger', url: 'product-details.html' },
+    { text: 'Pizza', url: '#' },
+    { text: 'Vegetable roll', url: 'product-details.html' },
+    { text: 'Sea fish', url: 'product-details.html' },
+    { text: 'Fried chicken', url: 'product-details.html' },
+    { text: 'Burger', url: '#' },
+    { text: 'Salad', url: '#' },
+  ];
+
   useEffect(() => {
     AOS.init({
       duration: 1500, // You can customize global settings here
@@ -15,19 +31,19 @@ const Footer = () => {
       <div className="widget-area pb-70">
         <div className="container">
           <div className="row justify-content-between">
+            {/* Location */}
             <div
               className="col-xl-3 col-lg-4 col-sm-6"
               data-aos="fade-up"
               data-aos-duration="1500"
               data-aos-offset="0"
             >
-              <div className="footer-widget footer-text">
-                <div className="footer-title">
-                  <h5>Location</h5>
-                </div>
-                <p>1403 Washington Ave, New Orleans, LA 70130, United States</p>
-              </div>
+              <FooterWidget title={location.title}>
+                <p>{location.address}</p>
+              </FooterWidget>
             </div>
+
+            {/* Contact */}
             <div
               className="col-xl-2 col-lg-3 col-sm-6"
               data-aos="fade-up"
@@ -35,20 +51,23 @@ const Footer = () => {
               data-aos-duration="1500"
               data-aos-offset="0"
             >
-              <div className="footer-widget footer-contact">
-                <div className="footer-title">
-                  <h5>Contact Us</h5>
-                </div>
+              <FooterWidget title={contact.title}>
                 <ul>
                   <li>
-                    <a href="mailto:wellfood@gmail.com"><p>wellfood@gmail.com</p></a>
+                    <a href={`mailto:${contact.email}`}>
+                      <p>{contact.email}</p>
+                    </a>
                   </li>
                   <li>
-                    <a href="callto:+(1)0987654321"><p>+(1) 098 765 4321</p></a>
+                    <a href={`callto:${contact.phone}`}>
+                      <p>{contact.phone}</p>
+                    </a>
                   </li>
                 </ul>
-              </div>
+              </FooterWidget>
             </div>
+
+            {/* Opening Hours */}
             <div
               className="col-xl-3 col-lg-4 col-sm-6"
               data-aos="fade-up"
@@ -56,20 +75,18 @@ const Footer = () => {
               data-aos-duration="1500"
               data-aos-offset="0"
             >
-              <div className="footer-widget opening-hour">
-                <div className="footer-title">
-                  <h5>Opening Hours</h5>
-                </div>
+              <FooterWidget title={openingHours.title}>
                 <ul>
-                  <li>
-                    Monday – Friday: <span>8am – 4pm</span>
-                  </li>
-                  <li>
-                    Saturday: <span>8am – 12am</span>
-                  </li>
+                  {openingHours.hours.map((hour, index) => (
+                    <li className="foli" key={index}>
+                      {hour.day}: <span>{hour.time}</span>
+                    </li>
+                  ))}
                 </ul>
-              </div>
+              </FooterWidget>
             </div>
+
+            {/* Social Media */}
             <div
               className="col-xl-3 col-lg-4 col-sm-6"
               data-aos="fade-up"
@@ -77,78 +94,26 @@ const Footer = () => {
               data-aos-duration="1500"
               data-aos-offset="0"
             >
-              <div className="footer-widget footer-text">
-                <div className="footer-title">
-                  <h5>Follow Us</h5>
-                </div>
+              <FooterWidget title={socialMedia.title}>
                 <div className="social-style-one mt-5">
-                  <a href="contact.html">
-                    <i className="fab fa-facebook-f"></i>
-                  </a>
-                  <a href="contact.html">
-                    <i className="fab fa-twitter"></i>
-                  </a>
-                  <a href="contact.html">
-                    <i className="fab fa-linkedin-in"></i>
-                  </a>
-                  <a href="contact.html">
-                    <i className="fab fa-instagram"></i>
-                  </a>
+                  {socialMedia.links.map((link, index) => (
+                    <a key={index} href={link.url} target="_blank" rel="noopener noreferrer">
+                      <i className={`fab fa-${link.platform}`}></i>
+                    </a>
+                  ))}
                 </div>
-              </div>
+              </FooterWidget>
             </div>
           </div>
         </div>
       </div>
       <div className="footer-bottom pt-30 pb-15">
         <div className="container rel text-center">
-          <ul className="footer-bottom-nav">
-            <li>
-              <a href="product-details.html"><p className="minfmenu">Hamburger</p></a>
-            </li>
-            <li>
-              <a href="#"><p className="minfmenu">Pizza</p></a>
-            </li>
-            <li>
-              <a href="product-details.html"><p className="minfmenu">Vegetable roll</p></a>
-            </li>
-            <li>
-              <a href="product-details.html"><p className="minfmenu">Sea fish </p> </a>
-            </li>
-            <li>
-              <a href="product-details.html"><p className="minfmenu">Fried chicken </p> </a>
-            </li>
-            <li>
-              <a href="#"> <p className="minfmenu">Burger</p></a>
-            </li>
-            <li>
-              <a href="#"> <p className="minfmenu">Salad</p></a>
-            </li>
-          </ul>
+          <FooterNav items={menuItems} />
           <ScrollToTopButton />
         </div>
         <hr className="mt-25 mb-30" />
-        <div className="container">
-          <div className="row">
-            <div className="col-lg-5">
-              <div className="copyright-text text-center text-lg-start">
-                <p>
-                  Copyright 2024 <a href="index.html">Wellfood</a>. All Rights Reserved
-                </p>
-              </div>
-            </div>
-            <div className="col-lg-7 text-center text-lg-end">
-              <ul className="footer-bottom-nav">
-                <li>
-                  <a href="#">Privacy Policy</a>
-                </li>
-                <li>
-                  <a href="#">Terms & Condition</a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
+        <MiniFooter />
       </div>
     </footer>
   );
